@@ -1,6 +1,4 @@
-n = int(input("Введите количество школьников: "))
-k = int(input("Введите количество яблок: "))
-apples_per_student = k // n
-apples_left_in_basket = k % n
-print("Каждому школьнику достанется:", apples_per_student)
-print("Яблок останется в корзинке:", apples_left_in_basket)
+import math
+X = float(input("Введите объем шара (в кубических единицах): "))
+radius = ((3 * X) / (4 * math.pi)) ** (1/3)
+print("Радиус шара:", radius)
